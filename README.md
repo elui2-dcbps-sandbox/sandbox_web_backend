@@ -5,5 +5,3 @@ old `urllib3` pin exists solely to exercise a dependency-fix workflow.
 No network request is made by the app or its tests.
 
 Run `uv sync` and `uv run pytest`.
-
-Synthetic bypass push risk probe; immediately reverted.
